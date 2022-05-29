@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './img/logo.jpg';
 import img1 from './img/img1.jpg';
+import { Link } from 'react-router-dom';
 
 function Main1() {
     return (
@@ -10,14 +11,17 @@ function Main1() {
                     <div className='card-header'>
                         <div className='row'>
                             <div className='col-sm-6'>
-                                <a className='navbar-brand' href='#' />
                                 <img src={logo} alt='..' />
                             </div>
                             <div className='btnContactanos col-sm-3'>
-                                <a href='#' class='btn btnIni text-white'>Iniciar Sesión</a>
+                                <Link to='/iniciarSesion' className='text-decoration-none'>
+                                    <a class='btn btnIni text-white'>Iniciar Sesión</a>
+                                </Link>
                             </div>
                             <div className='btnContactanos col-sm-2'>
-                                <a href='#' class='btn btnRegi text-white'>Registrarse</a>
+                                <Link to='/registrarse' className='text-decoration-none'>
+                                    <a class='btn btnRegi text-white'>Registrarse</a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -33,7 +37,7 @@ function Main1() {
                                 </div>
                             </div>
                             <div className='col-md-6 p-6'>
-                                <img src={img1} alt='..' className='img1'/>
+                                <img src={img1} alt='..' className='img1' />
                             </div>
                         </div>
                     </div>
