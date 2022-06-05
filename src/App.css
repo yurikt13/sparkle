@@ -17,7 +17,7 @@ code {
 }
 
 .cardIni {
-  height: 550px;
+  /* height: 550px; */
   margin-top: 50px;
 }
 
@@ -28,8 +28,8 @@ code {
 .img1 {
   border-radius: 20px;
   margin-top: 40px;
-  width: 490px;
-  height: 340px;
+  width: 100%;
+  height: auto;
 }
 
 .textIni {
