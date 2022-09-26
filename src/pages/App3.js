@@ -1,8 +1,11 @@
 import React from 'react'
+import Main3 from '../components/Main3';
 
 const App3 = () => {
   return (
-    <div>App3</div>
+    <div className='App3'>
+      <Main3 />
+    </div>
   )
 }
 

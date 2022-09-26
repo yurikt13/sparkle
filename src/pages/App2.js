@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Main2 from '../components/Main2';
 
 const App2 = () => {
   return (
-    <div>App2</div>
+    <div className='App2'>
+      <Main2 />
+    </div>
   )
 }
 
-export default App2
+export default App2;

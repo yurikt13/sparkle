@@ -3,6 +3,7 @@ import React from 'react';
 import App1 from '../pages/App1';
 import App2 from '../pages/App2';
 import App3 from '../pages/App3';
+import Home from '../pages/Home';
 
 import {
     BrowserRouter,
@@ -18,6 +19,7 @@ function App() {
                     <Route index element={<App1 />} />
                     <Route path='iniciarSesion' element={<App2 />} />
                     <Route path='registrarse' element={<App3 />} />
+                    <Route path='home' element={<Home />} />
                 </Route>
             </Routes>
         </BrowserRouter>
