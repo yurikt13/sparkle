@@ -10,15 +10,20 @@ function Main1() {
                 <div className='card cardIni'>
                     <div className='card-header'>
                         <div className='row'>
-                            <div className='col-sm-6 my-2'>
-                                <img src={logo} alt='..' />
+                            <div className='col-sm-3 my-2'>
+                                <img src={logo} alt='..'/>
                             </div>
-                            <div className='btnContactanos my-2 col-sm-3'>
+                            <div className='btnContactanos my-2 col-sm-3 p-2'>
+                                <Link to='/home' className='text-decoration-none'>
+                                    <div className='btn btnIni text-white'>Ver productos</div>
+                                </Link>
+                            </div>
+                            <div className='btnContactanos my-2 col-sm-3 p-2'>
                                 <Link to='/iniciarSesion' className='text-decoration-none'>
                                     <div className='btn btnIni text-white'>Iniciar Sesión</div>
                                 </Link>
                             </div>
-                            <div className='btnContactanos my-2 col-sm-2'>
+                            <div className='btnContactanos my-2 col-sm-3 p-2'>
                                 <Link to='/registrarse' className='text-decoration-none'>
                                     <div className='btn btnRegi text-white'>Registrarse</div>
                                 </Link>
